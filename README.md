@@ -24,8 +24,8 @@
 [![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/AlgoVault?style=social)](https://github.com/yourusername/AlgoVault)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/AlgoVault?style=social)](https://github.com/yourusername/AlgoVault)
+[![GitHub Stars](https://img.shields.io/github/stars/lastcookiee/AlgoVault?style=social)](https://github.com/lastcookiee/AlgoVault)
+[![GitHub Forks](https://img.shields.io/github/forks/lastcookiee/AlgoVault?style=social)](https://github.com/lastcookiee/AlgoVault)
 
 </div>
 
@@ -53,7 +53,7 @@ AlgoVault is an educational tool designed to help students and developers unders
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AlgoVault.git
+git clone https://github.com/lastcookiee/AlgoVault.git
 cd AlgoVault
 
 # Compile (Windows with MinGW)
