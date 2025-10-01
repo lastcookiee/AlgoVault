@@ -24,6 +24,8 @@
 [![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/AlgoVault?style=social)](https://github.com/yourusername/AlgoVault)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/AlgoVault?style=social)](https://github.com/yourusername/AlgoVault)
 
 </div>
 
@@ -44,6 +46,25 @@ AlgoVault is an educational tool designed to help students and developers unders
 - **🏗️ Modular Design**: Clean, maintainable code structure
 
 ---
+
+## 🚀 Quick Start
+
+### Clone and Run
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/AlgoVault.git
+cd AlgoVault
+
+# Compile (Windows with MinGW)
+g++ -std=c++11 -Wall -Wextra -O2 -o AlgoVault.exe main.cpp utils.cpp sorting.cpp graph.cpp
+
+# Or use the build script
+./build.bat
+
+# Run the application
+./AlgoVault.exe
+```
 
 ## 🚀 Getting Started
 
@@ -417,6 +438,8 @@ We welcome contributions to AlgoVault! Here's how you can help:
 - Include visualization for new implementations
 - Update README.md with new features
 - Test thoroughly on Windows platform
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
 ---
 
