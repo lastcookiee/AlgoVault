@@ -1,0 +1,228 @@
+# AlgoVault - .gitignore
+# This file specifies intentionally untracked files that Git should ignore
+
+# Compiled Executables
+*.exe
+*.out
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug and profiling files
+*.pdb
+*.idb
+*.ilk
+*.map
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Compiled Dynamic libraries
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+bin/
+obj/
+dist/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio files
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Code::Blocks files
+*.cb_temp
+*.layout
+*.depend
+*.workspace
+
+# Dev-C++ files
+*.dev
+*.win
+
+# QtCreator files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.moc.cpp
+*_ui.h
+*_ui.cpp
+
+# CLion files
+.idea/
+cmake-build-*/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!Makefile  # We want to keep our custom Makefile
+
+# Autotools
+.deps/
+.libs/
+*.la
+*.lo
+autom4te.cache/
+config.h
+config.log
+config.status
+configure
+Makefile.in
+aclocal.m4
+
+# Gcov coverage testing tool files
+*.gcno
+*.gcda
+*.gcov
+
+# Valgrind memory checker files
+*.valgrind
+*.supp
+
+# Doxygen documentation
+doc/html/
+doc/latex/
+
+# Backup files
+*~
+*.bak
+*.backup
+*.old
+*.orig
+
+# Test result files
+test_results/
+coverage/
+
+# Editor files
+.vscode/
+.vs/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Vim swap files
+*.swp
+*.swo
+
+# Emacs backup files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text files
+*.sublime-workspace
+*.sublime-project
+
+# Tags
+tags
+TAGS
+
+# Ctags
+.tags
+.tags_sorted_by_file
+
+# Generated documentation
+docs/_build/
+
+# Python bytecode (in case of any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Node.js (in case of any web interface)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keep important files
+!README.md
+!LICENSE
+!.gitignore
+!Makefile
+!build.bat
